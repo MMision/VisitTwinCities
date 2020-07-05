@@ -30,8 +30,7 @@ a:hover {
     text-decoration: none !important;
 }
 .visit {
-    background-color: #4771C4;
-    border: none;
+    background-image: linear-gradient(90deg, #4771C4, #243962);
     color: #FFFFFF;
     text-align: center;
     width: 9rem;
@@ -77,6 +76,8 @@ a:hover {
 }
 .navbar {
     padding: 0rem 0rem;
+    box-shadow: 4px 6px 9px #23232345;
+    z-index: 10;
 }
 .middleImageOverlay {
 	width: 100%;
