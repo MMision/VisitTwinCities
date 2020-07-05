@@ -1,41 +1,46 @@
+@media only screen and (min-width: 1px){
 .bg-dark {
     background-color: #202020 !important;
 }
 .h1, h1 {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
     margin-bottom: 0;
 }
 .h2, h2 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 300;
     letter-spacing: .3vh;
     margin-bottom: 0 !important;
 }
 .h3, h3 {
-    padding-top: 2%;
+    padding-top: 5.5%;
+    padding-bottom: 0.5%;
     color: #4771C4;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
     float: left !important;
+    text-align: center;
 }
 .h4, h4 {
     font-size: 1rem;
     line-height: 3.8vh;
     font-weight: 300;
     float: left !important;
-    width: 39%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
 }
 a:hover {
     color: #4771C4;
     background: white;
     text-decoration: none !important;
-        transition: all 0.4s;
+    transition: all 0.4s;
 }
 .visit {
     background-image: linear-gradient(90deg, #4771C4, #243962);
     color: #FFFFFF;
     text-align: center;
-    width: 9rem;
     font-size: 1.5vh;
     transition: all 0.4s;
     cursor: pointer;
@@ -43,11 +48,10 @@ a:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1% !important;
+    padding: 3%;
     z-index: 9;
     text-decoration: none;
     position: relative;
-    margin-top: 3%;
     height: 3rem;
     width: 9rem;
 }
@@ -60,18 +64,18 @@ a:hover {
     background-repeat: no-repeat;
     border-top-right-radius: 50% 100%;
     border-bottom-right-radius: 50% 100%;
-    /* clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%); */
     position: relative;
     float: left;
     background-size: cover;
     display: inline-block;
-    height: 44vh;
-    width: 50%;
-    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
+    height: 18vh;
+    width: 92%;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%) border-bottom-right-radius: 0% 0%;
+    border-bottom-left-radius: 0% 0%;
 }
 .navbar-brand {
     transform: scale(.6);
-    padding-left: 5%;
+    padding-left: 0;
 }
 .bg-dark {
     background-color: #4771C4 !important;
@@ -123,9 +127,174 @@ a:hover {
 .dropdown-menu {
     background-color: #ffffffe6;
 }
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: transparent;
+    padding-right: 9%;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255, 255, 255) !important;
 }
 .left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+}
+
+@media only screen and (min-width: 320px){
+
+}
+@media only screen and (min-width: 360px){
+
+}
+/*Media Queries 375*/
+
+@media only screen and (min-width: 375px){
+}
+@media only screen and (min-width: 411px){
+}
+@media screen and (max-width: 600px) {
+}
+@media only screen and (min-width: 601px) {
+}
+@media only screen and (min-width: 768px){
+.navbar-nav {
+    padding-left: 8%;
+    width: 100%;
+}
+.h1, h1 {
+    font-size: 3rem !important;
+}
+.h2, h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: .3vh;
+}
+.h3, h3 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    color: #4771C4;
+    font-size: 1.7rem;
+    font-weight: 500;
+    float: left !important;
+    text-align: center;
+}
+.h4, h4 {
+    font-size: 1rem;
+    line-height: 3.8vh;
+    float: left !important;
+    width: 44%;
+    text-align: left;
+}
+.visit {
+    text-align: center;
+    width: 9rem;
+    font-size: 1.5vh;
+    transition: all 0.4s;
+    padding: 1% !important;
+    margin-top: 3%;
+    height: 3rem;
+    width: 9rem;
+}
+.navbar-brand {
+    padding-left: 2%;
+}
+.homePageImage {
+    height: 52vh;
+    text-align: center;
+}
+.imageOverlay {
+    border-bottom: 6px solid white;
+}
+.content {
+    text-align: center;
+}
+}
+.left {
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 1024px){
+.navbar {
+    padding: 0rem 0rem;
+    box-shadow: 4px 6px 9px #23232345;
+    z-index: 10;
+}
+.navbar-brand {
+    padding-left: 8%;
+}
+}
+@media only screen and (min-width: 1025px){
+.h1, h1 {
+    font-size: 3rem !important;
+}
+.h2, h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: .3vh;
+}
+.h3, h3 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    color: #4771C4;
+    font-size: 1.7rem;
+    font-weight: 500;
+    float: left !important;
+    text-align: center;
+}
+.h4, h4 {
+    font-size: 1rem;
+    line-height: 3.8vh;
+    float: left !important;
+    width: 44%;
+    text-align: left;
+}
+.visit {
+    text-align: center;
+    width: 9rem;
+    font-size: 1.5vh;
+    transition: all 0.4s;
+    padding: 1% !important;
+    margin-top: 3%;
+    height: 3rem;
+    width: 9rem;
+}
+.middleContent {
+    padding-bottom: 10%;
+}
+.middleImage {
+    background-repeat: no-repeat;
+    border-top-right-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    height: 44vh;
+    width: 50%;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%)
+    border-bottom-right-radius: 0% 0%;
+    border-bottom-left-radius: 0% 0%;
+}
+.navbar-brand {
+    padding-left: 8%;
+}
+.homePageImage {
+    height: 52vh;
+    text-align: center;
+}
+.imageOverlay {
+    border-bottom: 6px solid white;
+}
+.content {
+    text-align: center;
+}
+.navbar-nav {
+    padding-left: 49%;
+    width: 90%;
+}
+.left {
     padding-left: 4%;
+    padding-right: 0%;
+    width: 35%;
+    text-align: left;
+}
 }
