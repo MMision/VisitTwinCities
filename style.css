@@ -222,6 +222,10 @@ a:hover {
     box-shadow: 4px 6px 9px #23232345;
     z-index: 10;
 }
+.navbar-nav {
+    padding-left: 43%;
+    width: 97%;
+}
 .navbar-brand {
     padding-left: 8%;
 }
