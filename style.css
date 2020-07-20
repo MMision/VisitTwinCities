@@ -29,11 +29,14 @@
     width: 100%;
     text-align: center;
 }
-a:hover {
+.visit:hover {
     color: #4771C4;
     background: white;
     text-decoration: none !important;
     transition: all 0.4s;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #243962 !important;
 }
 .visit {
     background-image: linear-gradient(90deg, #4771C4, #243962);
@@ -147,7 +150,7 @@ a:hover {
     padding-right: 9%;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255);
 }
 .left {
     padding-left: 5%;
